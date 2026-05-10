@@ -1,5 +1,8 @@
 # GregorOpmannOS
 
+![Desktop](images/desktop.png)
+
+
 ## This took me a whole sunday.
 
 ### Usage on own risk, like any Arch Linux distro
