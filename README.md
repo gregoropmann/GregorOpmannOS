@@ -29,7 +29,7 @@ Do not use it as a secure daily-driver environment. ¡**
 - 8 GB USB drive
 
 
-*ISO size: ~3.8 GB*
+***ISO size: ~3.8 GB***
 
 
 
