@@ -165,3 +165,4 @@ chromium
 1. Unplug your USB
 2. Reboot (Most modern systems usually go back to the boot order you used before)
 3. Format the USB in your preffered file system (NTFS for Windows, ext4 if you're cool)
+4. Move on with your day.
