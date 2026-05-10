@@ -9,6 +9,14 @@
 
 *A fairly lightweight XFCE4 Archiso OS for most quick liveboot needs.*
 
+
+### Security notice
+
+This live environment automatically logs into XFCE4 as root for convenience.
+
+This is NOT intended to be a secure multi-user operating system.
+Use responsibly.
+
 **! This OS is intended for temporary live sessions only.
 Do not use it as a secure daily-driver environment. ¡**
 
@@ -21,6 +29,21 @@ Do not use it as a secure daily-driver environment. ¡**
 - 8 GB USB drive
 
 
+*ISO size: ~3.8 GB*
+
+
+
+## Features
+
+- Lightweight XFCE4 desktop
+- Liveboot Arch Linux environment
+- Broad filesystem support
+- Developer & DevOps tooling
+- Networking & diagnostics utilities
+- Virtualization support
+- Automatic desktop login
+- Works well with Ventoy
+
 
 ## SHA256
 
@@ -28,117 +51,37 @@ Do not use it as a secure daily-driver environment. ¡**
 
 
 
-## Packages
-linux (obviously)
-linux-firmware
-base
-linux-headers
-syslinux
-sof-firmware
-base-devel
-amd-ucode
-intel-ucode
-xfce4
-xfce4-goodies
-edk2-shell
-lightdm
-lightdm-gtk-greeter
-networkmanager
-network-manager-applet
-pipewire
-pipewire-pulse
-pavucontrol
-mesa
-vulkan-radeon
-xf86-video-amdgpu
-xf86-video-intel
-xf86-video-nouveau
-nvidia-open-lts
-nvidia-utils
-firefox
-vlc
-gparted
-mousepad
-git
-ntfs-3g
-exfatprogs
-bluez
-bluez-utils
-fastfetch
-kdeconnect
-fzf
-gdu
-wireguard-tools
-tree
-wl-clipboard
-stow
-xclip
-htop
-eza
-bat
-fd
-ripgrep
-openssh
-nmap
-wireshark-qt
-mtr
-ipcalc
-doggo
-ansible
-terraform
-docker
-docker-compose
-kubectl
-helm
-python
-ipython
-neovim
-jq
-hashcat
-clamav
-gufw
-lynis
-tmux
-rsync
-lazygit
-tcpdump
-inetutils
-strace
-dosfstools
-smartmontools
-fish
-zsh
-grml-zsh-config
-starship
-speedtest-cli
-ncdu
-virt-manager
-usbutils
-pciutils
-reflector
-ethtool
-wireless_tools
-archiso
-mkinitcpio
-mkinitcpio-archiso
-libreoffice-still-et
-libmythes
-libreoffice-extension-texmaths
-libreoffice-extension-writer2latex
-ttf-liberation
-gnu-free-fonts
-noto-fonts
-jre-openjdk
-gst-plugins-good
-librsvg
-poppler
-pkgstats
-networkmanager
-bash-completion
-man-pages
-qemu-desktop
-alacritty
-chromium
+## Included software
+
+### Desktop
+- XFCE4
+- LightDM
+- Firefox
+- Chromium
+- VLC
+- LibreOffice
+
+### Development
+- Git
+- Python
+- Neovim
+- Docker
+- Kubernetes tools
+- Terraform
+- Ansible
+
+### Networking & Security
+- Wireshark
+- Nmap
+- Tcpdump
+- WireGuard
+- Lynis
+- Hashcat
+- ClamAV
+
+### Virtualization
+- QEMU
+- Virt-Manager
 
 
 
