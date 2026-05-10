@@ -145,7 +145,7 @@ chromium
 
 ## How to install:
 
-1. Download **GregorOpmannOS-x86_64.iso**.
+1. Download [**GregorOpmannOS-x86_64.iso Internet Archive Download Page**]()
 2. Use [**Rufus**](https://rufus.ie/downloads/) to put the image on a **disc/usb that has nothing of value on it** or make a [**Ventoy**](https://www.ventoy.net/en/download.html) **USB** which I personally like better. (A regular 7.4505806 gibibyte USB does just fine, the iso is about half of that). **Problem? Rufus**, probably...rewrite the image on the USB in **DD Mode**
 3. Enter **BIOS** with your PC's BIOS key.
 4. Set **Secure Boot** to Off/**Disabled**, as this image is **not Microsoft signed**.
