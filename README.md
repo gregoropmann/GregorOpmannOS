@@ -9,7 +9,8 @@
 
 *A fairly lightweight XFCE4 Archiso OS for most quick liveboot needs.*
 
-**It's live-only with no persistance**
+**! This OS is intended for temporary live sessions only.
+Do not use it as a secure daily-driver environment.**
 
 
 
