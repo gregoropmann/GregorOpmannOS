@@ -3,7 +3,7 @@
 ![Desktop](images/desktop.png)
 
 
-## This took me a whole sunday.
+## This took me a whole Sunday.
 
 ### Usage on own risk, like any Arch Linux distro
 
