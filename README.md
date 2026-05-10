@@ -5,7 +5,7 @@
 
 ## This took me a whole Sunday.
 
-### Usage on own risk, like any Arch Linux distro
+### Use at your own risk, like any Arch Linux distro
 
 *A fairly lightweight XFCE4 Archiso OS for most quick liveboot needs.*
 
@@ -17,8 +17,9 @@ This live environment automatically logs into XFCE4 as root for convenience.
 This is NOT intended to be a secure multi-user operating system.
 Use responsibly.
 
-**! This OS is intended for temporary live sessions only.
-Do not use it as a secure daily-driver environment. ¡**
+> [!WARNING]
+> This OS is intended for temporary live sessions only.
+> Do not use it as a secure daily-driver environment.
 
 
 
@@ -49,6 +50,14 @@ Do not use it as a secure daily-driver environment. ¡**
 
 1f95846771a72d868bf499d9ccafc497db2c946b4f7285076bebdbce1ea9bf1a    GregorOpmannOS-x86_64.iso
 
+
+## Built with
+
+- archiso
+- mkinitcpio
+- XFCE4
+- systemd
+- boredom
 
 
 ## Included software
@@ -90,7 +99,7 @@ Do not use it as a secure daily-driver environment. ¡**
 ## How to install:
 
 1. Download [**GregorOpmannOS-x86_64.iso Internet Archive Download Page**](https://archive.org/download/gregor-opmann-os-v-1/GregorOpmannOS-v1.tar.gz)
-2. Use [**Rufus**](https://rufus.ie/downloads/) to put the image on a **disc/usb that has nothing of value on it** or make a [**Ventoy**](https://www.ventoy.net/en/download.html) **USB** which I personally like better. (A regular 7.4505806 gibibyte USB does just fine, the iso is about half of that). **Problem? Rufus**, probably...rewrite the image on the USB in **DD Mode**
+2. Use [**Rufus**](https://rufus.ie/downloads/) to put the image on a **disc/usb that has nothing of value on it** or make a [**Ventoy**](https://www.ventoy.net/en/download.html) **USB** which I personally like better. (A regular 7.4505806 gibibyte USB does just fine, the iso is about half of that). **Problem? Rufus**, probably ... rewrite the image on the USB in **DD Mode**
 3. Enter **BIOS** with your PC's BIOS key.
 4. Set **Secure Boot** to Off/**Disabled**, as this image is **not Microsoft signed**.
 5. Set **boot order**: Make your **USB**, the drive that you have the iso on, the **top** one, **above Windows Boot Manager** or whatever else sh*t you got.
@@ -110,5 +119,5 @@ The background is somewhere **/usr/local/share/backgrounds/default.png** and /op
 
 1. Unplug your USB
 2. Reboot (Most modern systems usually go back to the boot order you used before)
-3. Format the USB in your preffered file system (NTFS for Windows, ext4 if you're cool)
+3. Format the USB in your preferred file system (NTFS for Windows, ext4 if you're cool)
 4. Move on with your day.
