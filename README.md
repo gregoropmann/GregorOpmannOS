@@ -99,7 +99,7 @@ Do not use it as a secure daily-driver environment. ¡**
 8. Let all the fun stuff run in front of your face, like **"Welcome to Arch Linux"**, do not worry about any **Warning**s or **Error**s (only if it doesn't boot into Arch, don't contact me.)
 9. You get automatically thrown into **Xfce4** as the **root** user, which can be pretty scary if you're stupid, you are playing with fire, don't delete random stuff and it won't burn you.
 
-10. Do whatever you want, it's Linux ... Arch, btw.
+10. Do whatever you want, it's Linux ... Arch, btw. The background is somewhere /usr/opt/default.png
 
 
 
