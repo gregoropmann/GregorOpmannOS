@@ -30,7 +30,7 @@ Use responsibly.
 - 8 GB USB drive
 
 
-***ISO size: ~3 GB***
+***ISO size: ~3.1 GB***
 
 
 
