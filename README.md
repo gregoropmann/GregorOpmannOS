@@ -64,8 +64,8 @@ Use responsibly.
 - boredom
 - loss of brain cells
 
-
-## Included software
+<details>
+<summary>## Included software</summary>
 
 ### Base System
 linux (obviously)
@@ -227,6 +227,7 @@ pkgstats
 ### Partitioning / Disk Management
 gparted
 
+</details>
 
 
 
