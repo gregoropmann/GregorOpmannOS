@@ -48,7 +48,7 @@ Use responsibly.
 
 ## SHA256
 
-1f95846771a72d868bf499d9ccafc497db2c946b4f7285076bebdbce1ea9bf1a    GregorOpmannOS-x86_64.iso
+GregorOpmannOS-x86_64.iso
 
 
 ## Built with
