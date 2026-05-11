@@ -64,7 +64,7 @@ Use responsibly.
 - boredom
 - loss of brain cells
 
-## <details>
+<details>
 <summary>Included software</summary>
 
 ### Base System
