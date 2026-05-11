@@ -55,6 +55,7 @@ Use responsibly.
 
 - archiso
 - mkinitcpio
+- SquashFS
 - XFCE4
 - systemd
 - boredom
