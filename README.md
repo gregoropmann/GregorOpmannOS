@@ -59,8 +59,9 @@
 - boredom
 - loss of brain cells
 
+##
 <details>
-<summary>**Included software**</summary>
+<summary>Included software</summary>
 
 ### Base System
 linux (obviously)
