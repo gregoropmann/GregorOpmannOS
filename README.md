@@ -13,13 +13,15 @@
 ### Security notice
 
 This live environment automatically logs into XFCE4 as root for convenience.
-
 This is NOT intended to be a secure multi-user operating system.
 Use responsibly.
 
 > [!WARNING]
 > This OS is intended for temporary live sessions only.
 > Do not use it as a secure daily-driver environment.
+> This live environment automatically logs into XFCE4 as root for convenience.
+> This is NOT intended to be a secure multi-user operating system.
+> Use responsibly.
 
 
 
@@ -30,7 +32,7 @@ Use responsibly.
 - 8 GB USB drive
 
 
-***ISO size: ~3.1 GB***
+***ISO size: ~3 GB***
 
 
 
@@ -44,11 +46,12 @@ Use responsibly.
 - Virtualization support
 - Automatic desktop login
 - Works well with Ventoy
+- Copy to ram
 
 
 ## SHA256
 
-GregorOpmannOS-x86_64.iso
+0dae75f8ed7a00545e8c973ec2f54b2e6bb2b52ee60ebb23294a2261351d4464 GregorOpmannOS-x86_64.iso
 
 
 ## Built with
@@ -59,6 +62,7 @@ GregorOpmannOS-x86_64.iso
 - XFCE4
 - systemd
 - boredom
+- loss of brain cells
 
 
 ## Included software
@@ -229,19 +233,22 @@ gparted
 
 ## How to install:
 
-1. Download [**GregorOpmannOS-x86_64.iso Internet Archive Download Page**](https://archive.org/download/gregor-opmann-os-v-1/GregorOpmannOS-v1.tar.gz)
+1. Download [**GregorOpmannOS-x86_64.iso Internet Archive Download Page**]()
 2. Use [**Rufus**](https://rufus.ie/downloads/) to put the image on a **disc/usb that has nothing of value on it** or make a [**Ventoy**](https://www.ventoy.net/en/download.html) **USB** which I personally like better. (A regular 7.4505806 gibibyte USB does just fine, the iso is about half of that). **Problem? Rufus**, probably ... rewrite the image on the USB in **DD Mode**
 3. Enter **BIOS** with your PC's BIOS key.
 4. Set **Secure Boot** to Off/**Disabled**, as this image is **not Microsoft signed**.
 5. Set **boot order**: Make your **USB**, the drive that you have the iso on, the **top** one, **above Windows Boot Manager** or whatever else sh*t you got.
 6. **Save** and **Exit BIOS**.
-7. In Ventoy or Grub or whatever, select **"GregorOpmannOS-x86_64.iso"**, **"Normal mode"** and **"Arch Linux install medium"** (optional screenreader option, I don't recommend if you're not visually impaired.)
-8. Let all the fun stuff run in front of your face, like **"Welcome to Arch Linux"**, do not worry about any **Warning**s or **Error**s (only if it doesn't boot into Arch, don't contact me.)
-9. You get automatically thrown into **Xfce4** as the **root** user, which can be pretty scary if you're stupid, you are playing with fire, don't delete random stuff and it won't burn you.
+7. In Ventoy or Grub or whatever, select **"GregorOpmannOS-x86_64.iso"**, **"Normal mode"** and **"GregorOpmannOS Live (x86_64, UEFI)"** (optional 'with speech' option, I don't recommend if you're not visually impaired.) ![Grub](images/OSgrub.png)
+8. Let all the fun stuff run in front of your face, like **"Welcome to GregorOpmannOS Live x86_64"**, easy to miss on a fast system.
+9. You get automatically thrown into **Xfce4** as the **root** user, which can be pretty scary if you're stupid.
 
-10. Do whatever you want, it's Linux ... Arch, btw. 
+10. Do whatever you want, it's **Linux** ... **Arch, btw**. 
 
-The background is somewhere **/usr/local/share/backgrounds/default.png** and /opt/default.png
+The background is somewhere **/usr/share/backgrounds/xfce/default.png** and **/opt/default.png** just right click on desktop, go to desktop settings, under backgrounds find **"default.png"**.
+
+Open terminal in full screen cause fastfetch --logo is an ... questionable.
+You should be logged in as root@GregorOpmannOS.
 
 
 
