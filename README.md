@@ -63,35 +63,165 @@ GregorOpmannOS-x86_64.iso
 
 ## Included software
 
-### Desktop
-- XFCE4
-- LightDM
-- Firefox
-- Chromium
-- VLC
-- LibreOffice
+### Base System
+linux (obviously)
+linux-firmware
+base
+base-devel
+linux-headers
+syslinux
+edk2-shell
+archiso
+mkinitcpio
+mkinitcpio-archiso
+
+### CPU / Firmware
+amd-ucode
+intel-ucode
+sof-firmware
+linux-firmware-marvell
+broadcom-wl
+
+### Desktop Environment (XFCE)
+xfce4
+xfce4-goodies
+lightdm
+lightdm-gtk-greeter
+alacritty
+mousepad
+
+### Networking
+networkmanager
+network-manager-applet
+openssh
+wireguard-tools
+ethtool
+wireless_tools
+inetutils
+
+### Audio
+pipewire
+pipewire-pulse
+pavucontrol
+
+### Graphics / GPU Drivers
+mesa
+vulkan-radeon
+xf86-video-amdgpu
+xf86-video-intel
+xf86-video-nouveau
+nvidia-open
+nvidia-utils
+
+### Browsers
+firefox
+chromium
+
+### Multimedia
+vlc
+gst-plugins-good
+
+### File Systems / Disk Support
+ntfs-3g
+exfatprogs
+dosfstools
+
+### Bluetooth
+bluez
+bluez-utils
+
+### Office / Documents / Fonts
+libreoffice-still-et
+libmythes
+libreoffice-extension-texmaths
+libreoffice-extension-writer2latex
+ttf-liberation
+gnu-free-fonts
+noto-fonts
+librsvg
+poppler
+jre-openjdk
+
+### Terminal / Shell
+fish
+zsh
+grml-zsh-config
+starship
+bash-completion
+tmux
+
+### CLI Utilities
+fastfetch
+tree
+htop
+eza
+bat
+fd
+ripgrep
+jq
+fzf
+gdu
+ncdu
+speedtest-cli
+reflector
+usbutils
+pciutils
+wl-clipboard
+xclip
+stow
+man-pages
 
 ### Development
-- Git
-- Python
-- Neovim
-- Docker
-- Kubernetes tools
-- Terraform
-- Ansible
-
-### Networking & Security
-- Wireshark
-- Nmap
-- Tcpdump
-- WireGuard
-- Lynis
-- Hashcat
-- ClamAV
+git
+python
+ipython
+neovim
+ansible
+terraform
+docker
+docker-compose
+kubectl
+helm
+lazygit
 
 ### Virtualization
-- QEMU
-- Virt-Manager
+virt-manager
+qemu-desktop
+
+### Networking / Diagnostics
+nmap
+wireshark-qt
+mtr
+ipcalc
+doggo
+tcpdump
+
+### Security / Recovery / Forensics
+hashcat
+clamav
+gufw
+lynis
+testdisk
+chntpw
+ddrescue
+partclone
+
+### Hardware / Storage
+smartmontools
+nvme-cli
+gsmartcontrol
+memtest86+
+
+### File Sync / Transfer
+rsync
+kdeconnect
+
+### Debugging / Sysadmin
+strace
+pkgstats
+
+### Partitioning / Disk Management
+gparted
 
 
 
