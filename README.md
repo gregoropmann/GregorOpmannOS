@@ -267,4 +267,4 @@ You should be logged in as root@GregorOpmannOS.
 
 
 
-### © Gregor Opmann · 2026 <opmanngregor@gmail.com>, <https://gregoropmann.github.io/aboutme/ >
+### © Gregor Opmann · 2026 <opmanngregor@gmail.com>,<https://gregoropmann.github.io/aboutme/ >
