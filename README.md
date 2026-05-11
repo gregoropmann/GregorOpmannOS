@@ -15,10 +15,9 @@
 > [!WARNING]
 > This live environment automatically logs into XFCE4 as the root user for convenience.
 > 
-> GregorOpmannOS is intended for temporary live sessions, recovery tasks, testing, and troubleshooting — not as a hardened daily-driver operating system.
+> GregorOpmannOS is intended for temporary live sessions, recovery tasks, testing, and troubleshooting — not as a hardened & secure daily-driver multi-user operating system.
 > 
-> Be careful when modifying or deleting system files. You are effectively playing with fire, but at least it's Linux fire.
-
+> Be careful when modifying or deleting system files. You are effectively playing with fire — but at least it's Linux fire. Windows is usually on fire in a different way...
 
 
 ## Minimum requirements
