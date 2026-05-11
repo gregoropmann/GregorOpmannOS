@@ -1,0 +1,11 @@
+NAME="GregorOpmannOS"
+PRETTY_NAME="GregorOpmannOS Live x86_64"
+ID=gregoros
+ID_LIKE=arch
+BUILD_ID=2026.05.11
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/gregoropmann/aboutme"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://github.com/gregoropmann/aboutme"
+BUG_REPORT_URL="https://github.com/gregoropmann/aboutme"
+LOGO=archlinux
