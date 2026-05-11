@@ -64,8 +64,8 @@ Use responsibly.
 - boredom
 - loss of brain cells
 
-<details>
-## <summary>Included software</summary>
+## <details>
+<summary>Included software</summary>
 
 ### Base System
 linux (obviously)
