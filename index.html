@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GregorOpmannOS | Live Arch</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --accent: #38bdf8;
+            --text: #f1f5f9;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 60px 0; }
+        h1 { font-size: 3rem; color: var(--accent); margin-bottom: 10px; }
+        .hero-img { width: 100%; border-radius: 12px; border: 1px solid var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .badge { background: var(--accent); color: var(--bg); padding: 5px 12px; border-radius: 20px; font-weight: bold; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 40px; }
+        .card { background: var(--card); padding: 20px; border-radius: 8px; border-left: 4px solid var(--accent); }
+        .warning { background: #450a0a; border: 1px solid #ef4444; padding: 15px; border-radius: 8px; margin: 20px 0; }
+        .btn { display: inline-block; background: var(--accent); color: var(--bg); padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: 0.3s; }
+        .btn:hover { opacity: 0.8; transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="badge">Version 2.0 Released</span>
+        <h1>GregorOpmannOS</h1>
+        <p>Built on Arch on Sunday. Refined over a very long Monday.</p>
+        <a href="https://archive.org/download/gregor-opmann-os-v2/GregorOpmannOS.tar.gz" class="btn">Download ISO</a>
+    </header>
+
+    <img src="images/desktop.png" alt="GregorOpmannOS Desktop" class="hero-img">
+
+    <div class="warning">
+        <strong>⚠️ Fix the Wallpaper:</strong> After first boot, right-click the desktop -> Desktop Settings -> Select <code>default.png</code>. Automatic scripts were scrapped for stability.
+    </div>
+
+    <h2>Features</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Optimized Kernel</h3>
+            <p>Running Linux 7.0.5-arch1-1 for peak hardware compatibility.</p>
+        </div>
+        <div class="card">
+            <h3>ZSH + Fastfetch</h3>
+            <p>Custom .zlogin configuration with scaled ASCII branding.</p>
+        </div>
+        <div class="card">
+            <h3>Modern Support</h3>
+            <p>Tested on Ryzen 7000 series and RX 7000 series GPUs.</p>
+        </div>
+    </div>
+
+    <h2>Included Software</h2>
+    <ul>
+        <li><strong>Terminal:</strong> xfce4-terminal (custom themed)</li>
+        <li><strong>Shell:</strong> ZSH 5.9 with custom branding</li>
+        <li><strong>Desktop:</strong> XFCE 4.20 (X11)</li>
+        <li><strong>Utilities:</strong> CPU-X, GParted, Timeshift, Fastfetch</li>
+    </ul>
+</div>
+
+</body>
+</html>
