@@ -10,3 +10,10 @@ df8cbab028937868b5d372f0f157d582283b768eb2b31ef52a9d8f66bb8063ef GregorOpmannOS.
 
 1ab232ef862c3582140fdc0874403c34868c14790d34a9ae0deba29b39210bb6 GregorOpmannOS.tar.gz
   v2
+
+
+e0c2204db9fc101c7afcbf8065d5e374ed1f1bfc537d0b680b394090e9ded25d GregorOpmannOS-x86_64.iso
+  v2.1
+
+de48a0691bfb6ca390347f23c00f5925fb72ccbb1c14e3bcb74ade6f7f110b1c GregorOpmannOS.tar.gz
+  v2.1
