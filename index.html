@@ -181,9 +181,16 @@
     </div>
 
     <footer style="text-align: center; margin-top: 80px; opacity: 0.5; font-size: 0.8rem; padding-bottom: 40px;">
-        <p>&copy; 2026 • Gregor Opmann</p>
+        &copy; <span id="current-year"></span> Gregor Opmann · GitHub Pages
     </footer>
 </div>
+
+<script>
+const savedLang = localStorage.getItem('preferred-lang') || 'et';
+setLanguage(savedLang);
+
+document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
