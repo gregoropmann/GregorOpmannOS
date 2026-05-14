@@ -46,7 +46,7 @@
 
 ## SHA256
 
-0dae75f8ed7a00545e8c973ec2f54b2e6bb2b52ee60ebb23294a2261351d4464 GregorOpmannOS-x86_64.iso
+e0c2204db9fc101c7afcbf8065d5e374ed1f1bfc537d0b680b394090e9ded25d GregorOpmannOS-x86_64.iso
 
 
 ## Built with
@@ -230,7 +230,7 @@ gparted
 
 ## How to install:
 
-1. Download at [**GregorOpmannOS-x86_64.iso Internet Archive Download Page**](https://archive.org/download/gregor-opmann-os-v2/GregorOpmannOS.tar.gz)
+1. Download at [**GregorOpmannOS-x86_64.iso Internet Archive Download Page**](https://archive.org/download/gregor-opmann-os-v2_1/GregorOpmannOS.tar.gz)
 2. Use [**Rufus**](https://rufus.ie/downloads/) to put the image on a **disc/usb that has nothing of value on it** or make a [**Ventoy**](https://www.ventoy.net/en/download.html) **USB** which I personally like better. (A regular 7.4505806 gibibyte USB does just fine, the iso is about half of that). **Problem? Rufus**, probably ... rewrite the image on the USB in **DD Mode**
 3. Enter **BIOS** with your PC's BIOS key.
 4. Set **Secure Boot** to Off/**Disabled**, as this image is **not Microsoft signed**.
@@ -242,9 +242,10 @@ gparted
 
 10. Do whatever you want, it's **Linux** ... **Arch, btw**. 
 
+<h3>Audio is your own problem for now.</h3>
+
 The background is somewhere **/usr/share/backgrounds/xfce/default.png** and **/opt/default.png** just right click on desktop, go to desktop settings, under backgrounds find **"default.png"**.
 
-Open terminal in full screen cause fastfetch --logo is an ... questionable.
 You should be logged in as root@GregorOpmannOS.
 
 
