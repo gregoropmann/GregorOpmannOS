@@ -29,6 +29,7 @@
             --accent: #38bdf8;
             --text: #f1f5f9;
         }
+        
         body {
             background-color: var(--bg);
             color: var(--text);
@@ -37,6 +38,7 @@
             margin: 0;
             padding: 0;
         }
+        
         .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
         header { text-align: center; padding: 60px 0; }
         h1 { font-size: 3rem; color: var(--accent); margin-bottom: 10px; }
@@ -47,44 +49,51 @@
         .warning { background: #450a0a; border: 1px solid #ef4444; padding: 15px; border-radius: 8px; margin: 20px 0; }
         .btn { display: inline-block; background: var(--accent); color: var(--bg); padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: 0.3s; }
         .btn:hover { opacity: 0.8; transform: translateY(-2px); }
- .software-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 25px;
-        margin-top: 20px;
-    }
-    .software-category {
-        background: rgba(255, 255, 255, 0.03);
-        padding: 20px;
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        transition: 0.3s;
-    }
-    .software-category:hover {
-        background: rgba(255, 255, 255, 0.07);
-        border-color: var(--accent);
-        transform: translateY(-5px);
-    }
-    .software-category h3 {
-        margin-top: 0;
-        color: var(--accent);
-        font-size: 1.2rem;
-        border-bottom: 1px solid rgba(56, 189, 248, 0.2);
-        padding-bottom: 10px;
-    }
-    .software-category ul {
-        list-style: none;
-        padding: 0;
-        margin: 15px 0 0 0;
-    }
-    .software-category li {
-        margin-bottom: 8px;
-        font-size: 0.9rem;
-        color: #cbd5e1;
-    }
-    .software-category strong {
-        color: #fff;
-    }
+        
+         .software-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .software-category {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: 0.3s;
+        }
+        
+        .software-category:hover {
+            background: rgba(255, 255, 255, 0.07);
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+        
+        .software-category h3 {
+            margin-top: 0;
+            color: var(--accent);
+            font-size: 1.2rem;
+            border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+            padding-bottom: 10px;
+        }
+        
+        .software-category ul {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0 0 0;
+        }
+        
+        .software-category li {
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            color: #cbd5e1;
+        }
+        
+        .software-category strong {
+            color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -161,6 +170,10 @@
                 <li><strong>Dev:</strong> Neovim, Python, IPython, Git</li>
             </ul>
         </div>
+
+     <div class="warning">
+        <strong>⚠️ This live environment automatically logs into XFCE4 as the root user for convenience. GregorOpmannOS is intended for temporary live sessions, recovery tasks, testing, and troubleshooting — not as a hardened & secure daily-driver multi-user operating system. Be careful when modifying or deleting system files.</strong>
+    </div>
 
     </div>
     <footer style="text-align: center; margin-top: 80px; opacity: 0.5; font-size: 0.8rem; padding-bottom: 40px;">
