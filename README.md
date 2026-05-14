@@ -1,6 +1,6 @@
 # GregorOpmannOS
 
-![Desktop](images/desktop.png)
+![Desktop](images/OSdesktop.png)
 
 
 ## This took me a whole Sunday.
