@@ -254,7 +254,7 @@ You should be logged in as root@GregorOpmannOS.
 ### Oh no, corruption, whatever will I do?
 
 1. Unplug your USB
-2. Reboot (Most modern systems usually go back to the boot order you used before)
+2. Reboot into your main operating system.
 3. Format the USB in your preferred file system (NTFS for Windows, ext4 if you're cool)
 4. Move on with your day.
 
